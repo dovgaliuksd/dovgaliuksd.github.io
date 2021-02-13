@@ -1,0 +1,22 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+}
+h1, h2, h3{
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+h1{
+    font-size: 32px;
+}
+table, th, td{
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+figcaption{
+    font-style: italic;
+}
+figure{
+    float: right;
+}
