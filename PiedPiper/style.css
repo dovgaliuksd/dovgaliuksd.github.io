@@ -1,0 +1,218 @@
+/* === COMMON ===*/
+
+body, h1, h2, h3, h4, p, a {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+  }
+* {
+    box-sizing: border-box;
+}
+.wrapper-outer {
+    padding-right: 55px;
+    padding-left: 55px;
+}
+.wrapper-inner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-width: 1110px;
+    margin: 0 auto;
+ 
+}
+.wrapper-inner-wide {
+    max-width: 1219px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/* ===/ COMMON ===*/
+
+/* === HEADER === */
+
+.section-header {
+    background-color: #007765;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 184px;
+    height: 45px;
+}
+
+
+.nav-wrapper {
+    list-style: none;
+    padding: 0;
+    margin: 0%;
+    display: flex;
+}
+
+.nav-wrapper__item + .nav-wrapper__item{
+    margin-left: 20px;
+}
+
+.nav-wrapper__item-link {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-wrapper__item-link:hover {
+    color: #EEEEEE;
+}
+
+/* === / HEADER ===*/
+
+/* === jumbotron === */
+
+.section-jumbotron {
+    background-image: url(img/jumbotron.png);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.jumbotron-title {
+    font-size: 72px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* === / jumbotron ===*/
+
+/* === problem ===*/
+
+.section-problem {
+    background-color: #EEEEEE;
+}
+.problem-title {
+    color: #007765;
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.problem-text {
+    font-size: 32px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+
+/* === / problem ===*/
+
+/* === hero ===*/
+
+.section-hero {
+    background-image: url(img/hero.png);
+    background-size: cover;
+    background-position: center center;
+}
+.hero-text {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+}
+
+/* === / hero ===*/
+
+/* === ppc ===*/
+
+.section-ppc {
+    background-color: #FFFFFF;
+}
+.ppc-title {
+    color: #007765;
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.ppc-logo {
+    width: 115px;
+    height: 115px;
+    float: left;
+    margin-right: 40px;
+}
+.ppc-text {
+    font-size: 32px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+/* === / ppc ===*/
+
+/* === team ===*/
+
+.section-team {
+background-color: #EEEEEE;
+}
+.team-title {
+    color: #007765;
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    flex-basis: 29%;
+    margin-bottom: 20px;
+}
+.card-img {
+    height: 168px;
+    width: 168px;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.card-title {
+    font-size: 24px;
+    color: #007765;
+    font-weight: 500;
+    text-align: center;
+}
+.cart-text {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* === / team ===*/
+
+/* === FOOTER*/
+
+.section-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #333333;
+}
+.footer-text {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* === / FOOTER*/
